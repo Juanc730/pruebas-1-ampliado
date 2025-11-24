@@ -38,7 +38,7 @@ class PasswordValidatorTest {
         assertFalse(PasswordValidator.isValid("Ab1!"));
     }
 
-    // Caso 4: Contraseña demasiado larga
+    // Caso 4: Contraseña larga
     @Test
     void ContraseñaDemasiadoLarga() {
         String longPassword = "A".repeat(65) + "1!a";
